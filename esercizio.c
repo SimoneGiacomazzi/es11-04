@@ -52,6 +52,7 @@ int main(int argc, char* argv[])
   wait(&status);
   return 1;
  }
+ else 
  {
     close(p[1]);
     file = fopen(argv[2], "wb");
